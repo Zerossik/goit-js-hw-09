@@ -73,6 +73,7 @@ function stopTimer() {
     timerID = null;
     startBtn.disabled = true;
     startBtn.textContent = 'Start';
+    return;
   }
   const timer = convertMs(timeMS);
   deys.textContent = addLeadingZero(timer.days);
