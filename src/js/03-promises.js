@@ -7,7 +7,6 @@ let amount = null;
 
 // Функция, которая создает 1 промис...
 function createPromise(position, delay) {
-  console.log(delay);
   const shouldResolve = Math.random() > 0.3;
   return new Promise((resolve, reject) => {
     if (shouldResolve) {
