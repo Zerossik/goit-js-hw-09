@@ -45,3 +45,4 @@ function handlerSubmit(evt) {
 }
 
 refs.formEl.addEventListener('submit', handlerSubmit);
+// прппр
