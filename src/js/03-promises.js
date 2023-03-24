@@ -38,6 +38,7 @@ function handlerSubmit(evt) {
         Notify.failure(`❌ Rejected promise ${position} in ${delay}ms`);
       });
   }
+  refs.formEl.reset();
 }
 
 refs.formEl.addEventListener('submit', handlerSubmit);
